@@ -1,6 +1,6 @@
 # Doc Assistant
 
-A local Retrieval-Augmented Generation (RAG) system for document-based Q&A.
+A local AI-powered system for document-based question answering.
 
 ## Features
 - Upload PDF documents
@@ -23,7 +23,5 @@ A local Retrieval-Augmented Generation (RAG) system for document-based Q&A.
    -(bash) ollama run llama3
 3. Start the backend (FastAPI)
    -(bash) uvicorn backend.main:app --reload
-    -The backend will run on:
-    -http://127.0.0.1:8000
 4. Start the app:
    -(bash)streamlit run ui/app.py
